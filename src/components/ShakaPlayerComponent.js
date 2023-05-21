@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React from 'react';
 import ShakaPlayer from 'shaka-player-react';
 import 'shaka-player-react/dist/controls.css';
 
@@ -9,7 +9,7 @@ const assetUrl = `${awsUrl}/frag_bunny/output.mpd`
 
 
 const ShakaPlayerComponent = () => {
-  const controllerRef = useRef(null);
+  // const controllerRef = useRef(null);
 
   // useEffect(() => {
   //   const {
